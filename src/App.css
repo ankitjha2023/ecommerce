@@ -1,0 +1,13 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+button{
+  outline: none;
+
+}
+.category button:hover{
+  background-color: rgb(43, 40, 40);
+  color: white;
+  transition: 0.3s;
+}
