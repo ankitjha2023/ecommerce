@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font bg-gray-100">
   <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -19,10 +19,10 @@ const Hero = () => {
         </button></Link>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img
-        className="object-cover object-center rounded"
+      <img 
+        className="object-cover object-center rounded h-80 mx-auto"
         alt="hero"
-        src="https://media.istockphoto.com/id/1292443598/photo/flying-shopping-cart-with-shopping-bags-on-a-pink-background.jpg?s=170667a&w=0&k=20&c=d-0iNUYsC3I-cX4iaV4BNPOf9QYWth2fyWO2HvnghWo="
+        src="https://static.vecteezy.com/system/resources/previews/001/206/117/original/girl-png.png"
       />
     </div>
   </div>
