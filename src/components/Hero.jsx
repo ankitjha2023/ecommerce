@@ -22,7 +22,7 @@ const Hero = () => {
       <img 
         className="object-cover object-center rounded h-80 mx-auto"
         alt="hero"
-        src="https://static.vecteezy.com/system/resources/previews/001/206/117/original/girl-png.png"
+        src="/hero.png"
       />
     </div>
   </div>

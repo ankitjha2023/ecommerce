@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 import CartEmpty from './CartEmpty';
 
-const CartItem = () => {
+const CartItem = ({onClick}) => {
   const [cart, setCart] = useState([]);
-
+  
   useEffect(() => {
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
     setCart(cartItems);
@@ -48,7 +48,7 @@ const CartItem = () => {
   const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
 
   return (
-    <div className="flex flex-wrap -m-4 text-center">
+    <div className="flex flex-wrap -m-4 text-center py-24">
       <div className="p-4 md:w-3/4 sm:w-1/2 w-full">
         <div className="border-2 border-gray-200 px-4 py-6 rounded-lg flex flex-wrap">
           {cart.map((item) => (
@@ -71,7 +71,7 @@ const CartItem = () => {
                     +
                   </button>
                 </div>
-                <b className="text-xl">${item.price * item.quantity}</b>
+                <b className="text-xl">${(item.price * item.quantity).toFixed(2)}</b>
               </div>
             </div>
           ))}
@@ -88,8 +88,8 @@ const CartItem = () => {
             <span className="text-lg">Total Price:</span>
             <span className="text-lg">${totalPrice.toFixed(2)}</span>
           </div>
-          <button className="mt-6 py-2 px-4 text-white bg-blue-500 rounded hover:bg-blue-600">
-            Checkout
+          <button className="mt-6 py-2 px-4 text-white bg-blue-500 rounded hover:bg-blue-600" onClick={onClick}>
+            ORDER NOW
           </button>
 
         </div>

@@ -49,7 +49,7 @@ const Products = () => {
 
   if (isLoading) {
     return (
-      <div className="flex container mx-auto flex-wrap">
+      <div className="flex container mx-auto flex-wrap loadingProduct">
         <Loading className={classes} />
         <Loading className={classes} />
         <Loading className={classes} />
@@ -60,7 +60,7 @@ const Products = () => {
 
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-12 mx-auto">
+      <div className="container px-5 py-24 mx-auto">
         <h1 className="title-font sm:text-4xl text-3xl mb-12 font-medium text-gray-900 text-center">
           Featured Categories
         </h1>
