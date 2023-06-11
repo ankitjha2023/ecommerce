@@ -11,7 +11,7 @@ const Cart = () => {
     },1500)
   }
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font loadingProduct">
       <div className='bg-green-500 text-gray-100 absolute top-13 w-full alert'>
   {
     alert ? <Alert msg="Your order is placed"/> : <></>

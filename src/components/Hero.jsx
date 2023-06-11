@@ -20,7 +20,7 @@ const Hero = () => {
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img 
-        className="object-cover object-center rounded h-80 mx-auto"
+        className="object-contain object-center rounded h-80 mx-auto"
         alt="hero"
         src="/hero.png"
       />

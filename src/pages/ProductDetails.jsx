@@ -43,7 +43,7 @@ const ProductDetails = () => {
   }
 
   return (
-    <section className="text-gray-600 body-font overflow-hidden">
+    <section className="text-gray-600 body-font overflow-hidden loadingProduct">
       <div className='bg-green-500 text-gray-100 absolute top-13 w-full alert'>
       {
         alert ? 

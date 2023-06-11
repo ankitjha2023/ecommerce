@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font loadingProduct">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
       <div className="w-full sm:p-4 px-4 mb-6">
@@ -21,11 +21,11 @@ const About = () => {
 Thank you for choosing our Shopping Cart. Start exploring now and indulge in a delightful shopping experience!
         </div>
       </div>
-      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2 ">
         <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
         <p className="leading-relaxed">Users</p>
       </div>
-      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2 ">
         <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
         <p className="leading-relaxed">Subscribes</p>
       </div>

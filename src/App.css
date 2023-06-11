@@ -24,14 +24,6 @@ button{
  
 }
 .loadingProduct{
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
-@media (max-width:1000px) {
-  footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
-  }
-}
